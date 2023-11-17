@@ -1,0 +1,31 @@
+.btnPrimary {
+  font-size: $extra-large-size;
+  font-weight: 600;
+  color: $lighter-color;
+  background-color: $secondary-color;
+  padding: 1.8rem 4rem;
+  cursor: pointer;
+  border-radius: 5rem;
+
+  transition: $base-trans;
+
+  &:hover {
+    filter: contrast(1.2) brightness(1.05);
+  }
+}
+
+.btnSecondary {
+  font-size: $extra-large-size;
+  font-weight: 600;
+  color: $base-color;
+  background-color: $lighter-color;
+  padding: 1.8rem 4rem;
+  cursor: pointer;
+  border-radius: 5rem;
+
+  transition: $base-trans;
+
+  &:hover {
+    background-color: $light-color;
+  }
+}

@@ -1,0 +1,66 @@
+.serviceSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80rem;
+  overflow: hidden;
+  margin-top: 10rem;
+  background-color: blue;
+
+  .serviceSectionBg {
+    position: absolute;
+    height: 80rem;
+    width: 100vw;
+    left: 0;
+    background-color: #ddd;
+    z-index: 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+    z-index: 1;
+
+    h5 {
+      margin-bottom: 2rem;
+      color: $secondary-color;
+    }
+
+    p {
+      margin-top: 3rem;
+    }
+
+    button {
+      margin-top: 6rem;
+    }
+  }
+
+  .iconGroup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+
+    z-index: 1;
+
+    .iconCard {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      h4 {
+        margin-top: 2rem;
+      }
+
+      p {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

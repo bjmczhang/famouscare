@@ -1,0 +1,10 @@
+.serviceCard {
+  padding: 2rem;
+  margin: 5rem;
+  width: 24%;
+  border: 1px solid $base-color;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}

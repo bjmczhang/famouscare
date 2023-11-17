@@ -1,0 +1,39 @@
+// variables & functions
+@import "variables";
+
+// default & layout
+@import "default";
+
+// colors
+
+// components (button, card, navbar, etc.)
+@import "components/serviceSection";
+@import "components/aboutUs";
+@import "components/welcome";
+@import "components/serviceCard";
+@import "components/serviceCardsGroup";
+@import "components/serviceBg";
+@import "components/heroContent";
+@import "components/heroBg";
+@import "components/card";
+@import "components/button";
+@import "components/navbar";
+@import "components/search";
+@import "components/topbar";
+@import "components/footer";
+
+// utilities (margin, padding, opacity, etc)
+
+// pages
+@import "pages/home";
+@import "pages/about";
+@import "pages/blog";
+@import "pages/blogPost";
+@import "pages/cases";
+@import "pages/category";
+@import "pages/login";
+@import "pages/pricing";
+@import "pages/register";
+@import "pages/resources";
+@import "pages/solutions";
+@import "pages/products";

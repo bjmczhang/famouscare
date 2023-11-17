@@ -1,0 +1,40 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 5rem;
+
+  .topbarBg {
+    height: 5rem;
+    width: 100vw;
+    background-color: $primary-color;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+  }
+
+  .contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    z-index: 1;
+
+    .phoneNumber,
+    .email {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+
+  .openHours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+  }
+}

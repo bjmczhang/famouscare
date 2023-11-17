@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// GLOBAL VARIABLES
+
+// Font Family
+$base-font: "Red Hat Display", sans-serif;
+
+$heading-font: "Raleway", sans-serif;
+
+// body font size
+$base-size: 10px;
+$small-size: 12px;
+$medium-size: 14px;
+$large-size: 16px;
+$extra-large-size: 18px;
+
+// heading font size
+$h1-size: 85px;
+$h2-size: 42px;
+$h3-size: 32px;
+$h4-size: 22px;
+$h5-size: 18px;
+$h6-size: 16px;
+
+// Colors
+
+$base-color: #252525;
+$base-bgColor: #f4f4f4;
+$bgColor-light: #fff;
+$heading-color: #252525;
+$primary-color: #00499e;
+$secondary-color: #8fc229;
+$tertiary-color: #c0d2bf;
+$quaternary-color: #f5bf6a;
+$quinary-color: #f4a09a;
+$dark-color: #3d3d3d;
+$light-color: #a5a5a5;
+$lighter-color: #f7f7f9;
+$border-color: rgba(194, 190, 201, 0.2);
+$btn-border: 1px solid $dark-color;
+
+$box-shadow: 3px 0 60px transparentize($secondary-color, 0.8);
+$box-shadow-light: 3px 0 60px transparentize($secondary-color, 0.9);
+$bgc-gradient: linear-gradient(
+  -30deg,
+  rgb(48, 240, 182) 0%,
+  rgb(103, 77, 243) 100%
+);
+
+// layout
+$gutter: 30px;
+$container: 1320px;
+
+// Breakpoints.
+$breakpoints: (
+  xs: 376px,
+  ms: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  lp: 1300px,
+  lb: 1600px,
+);
+
+// transition
+
+$base-trans: all 0.3s ease-in-out;
+
+$hero-hight: 80vh;

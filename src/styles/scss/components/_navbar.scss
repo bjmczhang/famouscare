@@ -1,0 +1,36 @@
+.navbar {
+  height: 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $base-color;
+  font-weight: semibold;
+
+  .navLeft {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+
+    .logo {
+      width: 16rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 6rem;
+      padding-left: 4rem;
+      z-index: 1;
+      font-size: $extra-large-size;
+    }
+  }
+
+  .navRight {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}

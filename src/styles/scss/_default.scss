@@ -1,0 +1,272 @@
+/*******************************************************/
+/******************* ## Default Style ******************/
+/*******************************************************/
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+html {
+  font-size: $base-size;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  color: $base-color;
+  background: $base-bgColor;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: $large-size;
+  font-family: $base-font;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    text-decoration: none;
+    outline: none;
+  }
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.container {
+  min-height: 100vh;
+
+  background-color: $base-bgColor;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 0 8rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1536px) {
+  .wrapper {
+    max-width: 1366px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .wrapper {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    padding: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    max-width: 475px;
+  }
+}
+
+h1,
+h1 a,
+h2,
+h2 a,
+h3,
+h3 a,
+h4,
+h4 a,
+h5,
+h5 a,
+h6,
+h6 a {
+  color: $heading-color;
+  font-family: $heading-font;
+}
+
+h1 {
+  font-size: $h1-size;
+}
+h2 {
+  font-size: $h2-size;
+}
+h3 {
+  font-size: $h3-size;
+}
+h4 {
+  font-size: $h4-size;
+}
+h5 {
+  font-size: $h5-size;
+}
+h6 {
+  font-size: $h6-size;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+mark {
+  color: $secondary-color;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.text-white {
+  h1,
+  h1 a,
+  h2,
+  h2 a,
+  h3,
+  h3 a,
+  h4,
+  h4 a,
+  h5,
+  h5 a,
+  h6,
+  h6 a,
+  .h1,
+  .h1 a,
+  .h2,
+  .h2 a,
+  .h3,
+  .h3 a,
+  .h4,
+  .h4 a,
+  .h5,
+  .h5 a,
+  .h6,
+  .h6 a {
+    color: white;
+  }
+}
+
+/*======= Input Styles =======*/
+
+input,
+select,
+textarea,
+.nice-select,
+.form-control {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #fff;
+  border: 1px solid $border-color;
+}
+
+.nice-select {
+  font-size: 18px;
+  line-height: 1.3;
+
+  &:after {
+    height: 8px;
+    width: 8px;
+    right: 25px;
+    border-color: $heading-color;
+  }
+
+  .current {
+    font-weight: 500;
+    color: $heading-color;
+  }
+
+  .list {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+.textarea {
+  display: inherit;
+  padding-top: 20px;
+}
+
+label {
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: $base-color;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input:focus,
+button:focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: $border-color;
+}
+
+input[type="search"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  height: auto;
+  width: auto;
+}
